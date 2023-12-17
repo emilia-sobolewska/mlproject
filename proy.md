@@ -1,4 +1,6 @@
-# ***Proyecto***
+# Transporte Gran Canaria
+Especificación de los requisitos del software
+***
  
 <br>
 
@@ -24,29 +26,11 @@ Contenidos.
 4.2.4. Detalle de los casos de uso. <br>
 4.3. Diagramas de clases asociados a los requisitos de información. <br>
 
-Apendices 
-
-<br>
-
-# Hoja de revisión 
-
-| Fecha | Versión | Descripción | Autor |
-| :--   | :--     | :--         | :--   |
-| 29/10/2022  | 1.0        | Se ha recibido el pliego de condiciones técnicas el desarrollo del software de un sistema de información interactivo al viajero del transporte público regular de viajeros para la isla de Gran Canaria (portal web de servicios) mediante procedimiento abierto | Alejandro, Cristina y Adrián |
-| 15/11/2022  | 1.0        | Se realiza la entrevista a un mecánico naval para aclarar y detallar más los diferentes apartados            | Alejandro, Cristina y Adrián       |
-| 19/11/2022  | 1.0        | Se comienza el análisis de requisitos sobre el pliego de condidiciones, extrayendo los requisitos funcionales y no funcionales de cada apartado del documento.            | Alejandro, Cristina y Adrián      |
-| 22/11/2022  | 1.1        | Se elabora la estructura del documento de plantilla de requisitos con sus correspondientes apartados y secciones.            | Alejandro, Cristina y Adrián      |
-| 13/12/2022  | 1.2        | Se construyen los diagramas de casos de uso, BPMN y el organigrama.            | Alejandro, Cristina y Adrián      |
-| 14/12/2022  | 1.3        | Se rellenan los campos de las tablas de cada requisito funcional, no funcional y de la información.            | Alejandro, Cristina y Adrián      |
-| 15/12/2022  | 1.4        | Se construyen los diagramas entidad-relación y se continua rellenando los campos de las tablas que faltaban.            | Alejandro, Cristina y Adrián      |
-| 16/12/2022  | 1.5        | Versión final del proyecto, plantilla de requisitos completa.            | Alejandro, Cristina y Adrián      |
-
 
 # 1. Introducción.
 
-Se ha elaborado una propuesta de implementación del desarrollo de un software para un sistema de información interactivo para el usuario del transporte público regular de la isla de Gran Canaria. Para ello se ha elaborado una plantilla de requisitos que se corresponden con las especificaciones técnicas proporcionadas por el pliego de condiciones entregado con anterioridad.
 
-La propuesta recoge el trabajo realizado para el análisis, definición, diseño, desarrollo, puesta a punto e implementación del software necesario para poner en funcionamiento un Sistema Interactivo de Información (SIIT) y un Sistema de Información y Monitorización de la Explotación del Transporte (SMET), así como los servicios continuos para el mantenimiento de los mismos.
+This document contains documentation related to the project carried out by the Blanco group during the course “Requirements Engineering” in the academic year 2023/2024 at the University of Almeria. The project involves designing and modeling software designed to manage the interactive passenger information system for public transportation on the island of Gran Canaria (implement the development of software for an interactive information system for the user of regular public transport on the island of Gran Canaria.). Moreover, it includes the work carried out for the analysis, definition, design, development, fine-tuning and implementation of the software necessary to put into operation an Interactive Information System (SIIT) and a Transport Operation Information and Monitoring System (SMET). ), as well as continuous services for their maintenance.
 
 <br>
 
@@ -54,10 +38,8 @@ La propuesta recoge el trabajo realizado para el análisis, definición, diseño
 
 ## 2.1. Organigrama.
 
-<div align="center">
-    <img src="./../Proyecto/organigrama.svg" style="border: 3px solid #bbb">
-    <i><p>Imagen 1. Organigrama de la empresa AUTGC.</p></i>
-</div>
+<img width="960" alt="Screenshot 2023-12-17 at 21 09 25" src="https://github.com/emilia-sobolewska/mlproject/assets/81264277/b74f9749-6599-46aa-9c96-6604c99c9080">
+
 
 <br>
 
@@ -67,16 +49,16 @@ La propuesta recoge el trabajo realizado para el análisis, definición, diseño
 
 | Término                  | Descripción                     |
 | :---                     | :---                            |
-| WYSIWYG                  | Acrónimo de «Lo que ves obtienes», (What you see is what you get) es una frase aplicada a los procesadores de texto y otros editores de texto con formato (como los editores de HTML) que permiten escribir un documento mostrando directamente el resultado final, frecuentemente el resultado impreso.                                                     |
-| Cloud tag                | Las nubes de etiquetas consisten en agrupar palabras (etiquetas, tags) y mostrarle al visitante de la web cuales son las etiquetas más usadas, usando también estilos que permiten visualizar mejor cual tiene mayor actividad y cual tiene menor actividad.
-| CEN                      | Comité Europeo de Normalización         |
-| SIIT                     | Sistema Interactivo de Información del Transporte |
-| SMET                     | Sistema de la Mo5nitorización de la Explotación del Transporte |
-| HelpDesk                 | Conjunto de recursos tecnológicos y humanos, para prestar servicios con la posibilidad de gestionar y solucionar todas las posibles incidencias de manera integral, junto con la atención de requerimientos relacionados con las Tecnologías de la Información y la Comunicación (TIC).  |
-| PDA                      | Personal Digital Assistant, Ayudante personal digital. Es un dispositivo de pequeño tamaño que combina un ordenador, teléfono/fax, Internet y conexiones de red.  |
-| LOPD                     |  Ley Orgánica 15/1999 de 13 de diciembre de Protección de Datos de Carácter Personal. Es una ley española que tiene por objeto la garantía y la protección de los datos personales, las libertades públicas y los derechos fundamentales de las personas físicas, en especial de su honor, intimidad y privacidad personal y familiar.   |
-| AUT                      | Autoridad Única del Transporte |
-| Entorno de colaboración       | Entorno enfocado a la facilitación de la comunicación e intercambio de información tanto entre los administradores como entre los usuarios del sistema. |
+| Cloud tag                | It consists of grouping words (labels, tags) and showing the website visitor which are the most used tags. Also, using styles that allow a better visualization of which has the most activity and which has the least activity.                                                    |
+| LOPD                     | Organic Law 15/1999 of 13th of December on Protection of Personal Data. It is a Spanish law that aims to guarantee and protect personal data, public freedoms and fundamental rights of natural persons, especially their honor, intimacy and personal and family privacy.
+| AUT                      | Acronym for “Autoridad Única del Transporte”         |
+| HelpDesk                 | Set of technological and human resources, to provide services with the possibility of managing and solving all possible incidents in a comprehensive manner, along with addressing requirements related to Information and Communication Technologies (ICT). |
+| CEN                      | Acronym for “Comité Europeo de Normalización”  |
+| Collaborative environment| Environment focused on facilitating communication and exchange of information both between administrators and users of the system. |
+| PDA                      | Personal Digital Assistant, Personal digital assistant. It is a small device that combines a computer, telephone/fax, Internet and network connections.  |
+| WYSIWYG                  |  Acronym for "What You See Is What You Get" - a phrase applied to word processors and other formatted text editors (such as HTML editors) that allow you to write a document directly showing the result. final, often the printed result.   |
+| SMET                     | Acronym for “Sistema de la Monitorización de la Explotación del Transporte” |
+| SIIT                     | Acronym for “Sistema Interactivo de Información del Transporte” |
 
 <br>
 
@@ -88,26 +70,52 @@ La propuesta recoge el trabajo realizado para el análisis, definición, diseño
 
 <br>
 
-| OBJ-1                 		  | Gestión del Portal del SIIT   |
+| OBJ-1                 		  | Efficient public transport information system   |
 | :---                    		  | :---                          |
-| Versión                         | 2.0                           |
-| Descripción                     | El sistema deberá implementar un Portal Web que cuente tanto con las necesidades de los usuarios como el análisis técnico. Se deberá implementar la identificación de necesidades (contenidos, servicios, audiencias,…), definición de la estructura (arquitectura de la información, mapa web,…) y organización del portal, detallar componentes organizativos, funcionales y técnicos del mismo. |
+| Descripción                     | EDevelop an efficient information system to enhance the public transport experience on the Gran Canaria island.|
 | Comentarios                     |                               |
 
 <br>
 
-| OBJ-2                 		  | Gestión de los sistemas de la información del SIIT   |
+| OBJ-2                 		  | Real-time monitoring for operational excellence  |
 | :---                    		  | :---                          |
-| Versión                         | 2.0                           |
-| Descripción                     | El sistema deberá implementar un sistema integrado de información de la red de transporte público de todos los municipios de Gran Canaria que proporcione herramientas de análisis, consulta, localización y gestión, con el objeto de que el usuario del transporte público pueda consultar de forma dinámica la información del servicio permitiéndole conocer y programar con antelación su viaje.                               |
+| Descripción                     | Implement a real-time monitoring system to track and ensure the compliance of public transport operations with awarded services, extensions and improvements. 
+                            |
 | Comentarios                     |                               |
 
 <br>
 
-| OBJ-3                 		  | Gestión del SMET   |
+| OBJ-3                 		  | User-centered interactive portal   |
 | :---                    		  | :---                          |
-| Versión                         | 2.0                           |
-| Descripción                     | El sistema deberá implementar el análisis, diseño, implementación y la puesta en marcha de un sistema de información central sobre la explotación para la Autoridad Única del Transportes cuya misión fundamental sea la de monitorizar en tiempo real el estado de la red de transporte público por carretera en la Isla de Gran Canaria. |
+| Descripción                     | Create an interactive user portal that provides citizens with easy access to integrated public passenger transport services, including tourism, leisure and cultural events.  |
+| Comentarios                     |                               |
+
+<br>
+
+| OBJ-4                 		  | Responsibility and accountability   |
+| :---                    		  | :---                          |
+| Descripción                     |Establish clear responsibilities for successful bidders and emphasize accountability for actions and decisions related to the project.  |
+| Comentarios                     |                               |
+
+<br>
+
+| OBJ-5                 		  | Comprehensive work analysis and design   |
+| :---                    		  | :---                          |
+| Descripción                     |Conduct a thorough analysis, design, development, fine-tuning and implementation of the software required for the interactive information system and monitoring platform.  |
+| Comentarios                     |                               |
+
+<br>
+
+| OBJ-6                 		  | Quality controls and collaborative support  |
+| :---                    		  | :---                          |
+| Descripción                     |Enable quality controls during project development and establish collaborative support from collaborating entities, especially the University of Las Palmas de Gran Canaria.   |
+| Comentarios                     |                               |
+
+<br>
+
+| OBJ-7                 		  | Effective training and maintenance |
+| :---                    		  | :---                          |
+| Descripción                     |Implement a comprehensive training program for the correct execution of the contract, ensuring that personnel are equipped with the necessary skills.   |
 | Comentarios                     |                               |
 
 <br>
@@ -117,33 +125,23 @@ La propuesta recoge el trabajo realizado para el análisis, definición, diseño
 <br>
 
 ### 3.2.1. Sub-procesos.
-
-<br>
-
-<div align="center">
-    <img src="./../Proyecto/BPMN-01.svg" style="border: 3px solid #bbb">
-    <i><p>Imagen 1. BPMN-01.</p></i>
-</div>
-
-<br>
-
-<div align="center">
-    <img src="./../Proyecto/BPMN-02.svg" style="border: 3px solid #bbb">
-    <i><p>Imagen 2. BPMN-02.</p></i>
-</div>
-
-<br>
-
-<br>
-
-<div align="center">
-    <img src="./../Proyecto/BPMN-03.svg" style="border: 3px solid #bbb">
-    <i><p>Imagen 3. BPMN-03.</p></i>
-</div>
-
-<br>
-
 ### 3.2.2. Tareas.
+<br>
+
+| Nombre                  | Descripción                     |
+| :---                     | :---                            |
+| BPMN-01 (Implement an effective information system)| Develop and deploy a comprehensive information system to enhance the quality and accessibility of public transportation services on the island of Gran Canaria.         |
+| BPMN-02 (Develop a central monitor system)         | Create a centralized monitoring system that provides real-time information on the state of the road transport network on Gran Canaria, enabling efficient traffic monitoring and management.
+| BPMN-03 (Implement real-time route planning)       | Develop the capability to calculate recommended routes and arrivals in real-time, considering factors such as the least number of transfers, the fastest route, or the lowest cost        |
+| BPMN-04 (Ensure integration with SIIT)             | Establish full integration with other Single Transport Authority information systems, particularly the Interactive Passenger Information System (SIIT), to facilitate effective collaboration and information exchange. |
+| BPMN-05(Develop SIIT internet portal)              | Create an internet portal (SIIT) to provide passengers with easy access to information about public transportation services, tourist attractions, culture, and other relevant information.  |
+| BPMN-06(Ensure long-term maintenance)              | Provide long-term maintenance of the system for at least two years, including technical support, current data information, and development services. |
+| BPMN-07(Ensure compatibility and collaboration)    | Ensure that the developed system is compatible with existing AUTGC tools and systems and follows relevant models, protocols, and standards.  |
+| BPMN-08(Implement real-time reporting and analysis)|  Enable the Single Transport Authority (AUTGC) to effectively monitor and manage operations by implementing real-time reporting and analysis of archival data.   |
+
+<br>
+
+
 
 <br>
 
