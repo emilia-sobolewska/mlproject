@@ -143,35 +143,31 @@ This document contains documentation related to the project carried out by the B
 
 
 
-<br>
-
-| Nombre                   | BPMN-01                       |
-| :---                     | :---                          |
-| Descripción              | Un trabajador de la AUTGC establece contacto con un operador de transporte para obtener el acta de incidencias (medio magnético o soporte papel) para proporcionárselo al operador adjudicatario. El operador revisa la información y si considera que los datos no son correctos, contactará con los operadores de trabajo para que la corrijan y le envíen la nueva información.                                |
-
-<br> 
-
-| Nombre                   | BPMN-02                       |
-| :---                     | :---                          |
-| Descripción              | Para que un usuario pueda comprar un bono a través de la Web, debe especificar la fecha y lugar deseado para realizar el viaje y el sistema buscará todas las opciones disponibles. Si hay, las muestra, en caso contrario, le mostrará las alternativas disponibles. Si el usuario desea una de esas opciones, selecciona la deseada, introduce sus datos personales y la compra, de manera que el sistema guarda la información en la base de datos y envía un resguardo al usuario. Por el contrario, si no quiere ninguna, podrá elegir otra fecha distinta o finalizar la compra.                            |
-
-<br>
-
-| Nombre                   | BPMN-03                       |
-| :---                     | :---                          |
-| Descripción              | Para que un usuario realice una consulta origen-destino debe introducir en el sistema el origen y el destino del viaje que quiere realizar. Además, podrá filtrar la consulta por un criterio de búsqueda (tiempo de viaje, precio, número de transbordos, parada, intervalo horario de salida). El sistema comprobará que la solución más optima se encuentre disponible y la proporcionará, pudiendo el usuario imprimir la información obtenida, y simular el recorrido. Si el sistema no encuentra una solución, informará al usuario, y le permitirá imprimir la solución (en este caso al no haber, saldrá un texto informativo).                                              |
-
-<br>
-
 # 4. Requisitos del sistema a desarrollar.
 
+<br>
+- Seach bar - findind any content on the website by entering key terms 
+<br>
+- Publishing the content of the website 
+<br>
+- Data modification 
+ <br>
+- Manual data entry 
+<br>
+- List of timetables and services 
+<br>
+- Calculation of recommended routes based on collected data
+<br>
+- Calculation of distances between bus stops 
+<br>
+- Locating interesting places 
 <br>
 
 ## 4.1. Requisitos.
 
 <br>
 
-### 4.1.1 Portal.
+### 4.1.1 User Portal.
 
 <br>
 
